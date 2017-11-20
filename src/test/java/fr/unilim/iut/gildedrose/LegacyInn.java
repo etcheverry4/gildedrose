@@ -3,10 +3,10 @@ package fr.unilim.iut.gildedrose;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Inn {
+public class LegacyInn {
 	private List<Item> items;
 
-	public Inn() {
+	public LegacyInn() {
 		items = new ArrayList<Item>();
 		items.add(new Item("+5 Dexterity Vest", 10, 20));
 		items.add(new Item("Aged Brie", 2, 0));
